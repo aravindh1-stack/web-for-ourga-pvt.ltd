@@ -1,0 +1,390 @@
+/* Basic styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', cursive, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Header styling */
+header {
+    background: linear-gradient(to right, #047c68, #5ce9bf); /* Softer gradient colors */
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Navigation menu */
+nav ul {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #5ce9bf, #047c68);
+    list-style: none;
+    padding: 15px;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #2575fc; /* Lighter shade on hover */
+}
+
+/* Hero section with 3D effect */
+.hero-section {
+    background: linear-gradient(to right, #05d1af, #8414c5);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero-section .hero-content {
+    text-align: center;
+    color: white;
+    transform: perspective(1000px) rotateX(10deg);
+}
+
+.hero-section h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.hero-section .learn-more {
+    background-color: #6a11cb;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.hero-section .learn-more:hover {
+    transform: translateY(-5px);
+    background-color: #2575fc;
+}
+
+/* Content section styling */
+.content-section, .announcement-section, .featured-content-section {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content-section h2, 
+.announcement-section h2, 
+.featured-content-section h2 {
+    text-align: center;
+    color: #025e51; /* Matching header color */
+}
+
+.posts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post {
+    background-color: #f0f8ff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    width: 80%;
+    text-align: left;
+}
+
+.post h3 {
+    margin: 0;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #065c55;
+    text-decoration: underline;
+}
+
+/* Announcement section */
+.announcement-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.announcement-section li {
+    padding: 8px;
+    border-bottom: 1px solid #025e51;
+}
+
+/* Featured content section */
+.featured-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.featured-item {
+    background-color: #f0f8ff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+.featured-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+}
+/* Team Section Styling */
+.team-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #f0f8ff;
+    text-align: center;
+}
+
+.team-section h2 {
+    color: #6a11cb;
+    margin-bottom: 30px;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-member {
+    background: linear-gradient(to right, #047c68, #333); /* Softer gradient colors */
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    width: 220px;
+}
+
+.team-member:hover {
+    transform: translateY(-10px); /* Hover effect */
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    font-size: 1.5em;
+    margin: 10px 0 5px 0;
+    color: #ffffff;
+}
+
+.team-member p {
+    color: #f0f8ff;
+    margin: 5px 0;
+}
+/* Services Section Styling */
+.services-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #f7f9fc; /* Soft background color */
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between cards */
+    max-width: 1000px; /* Limit the container width */
+    margin: 0 auto; /* Center the container */
+}
+
+.service-card {
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient background */
+    border-radius: 15px;
+    padding: 20px;
+    color: #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s; /* Add transition for hover effect */
+    width: 240px; /* Fixed width for cards */
+}
+
+.service-card:hover {
+    transform: translateY(-5px); /* Hover effect */
+}
+
+.service-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+/* Contact Section Styling */
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #f7f9fc; /* Soft background color */
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 600px;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient background */
+    border-radius: 15px;
+    padding: 30px;
+    color: #ffffff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-container h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.contact-container label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 1.1em;
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-container button {
+    background-color: #ffffff; /* Button color */
+    color: #6a11cb; /* Text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s; /* Add transition for hover effect */
+}
+
+.contact-container button:hover {
+    background-color: #e0e0e0; /* Change button color on hover */
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info h3 {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: #ffffff; /* Link color */
+    text-decoration: underline; /* Underline links */
+}
+/* About Us Section Styling */
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #e8f1f2; /* Soft background color */
+    text-align: center;
+}
+
+.about-container {
+    max-width: 800px;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient background */
+    border-radius: 15px;
+    padding: 30px;
+    color: #ffffff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-container h2 {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.about-container p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+.about-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.about-container li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
