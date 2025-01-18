@@ -1,2 +1,2 @@
-# Web for the company " Fictional Company " ! .
-I have build a small website for " Fictional Company ' as college project , that's of these
+# Web for the company " OURGA PRIVATE LIMITED / FOUNDATION " ( front end only )
+I have build a small website for " OURGA PRIVATE LIMITED / FOUNDATION " that's of these
