@@ -1,2 +1,2 @@
-# web-for-ourga-pvt.ltd
-I have build a small website for OURGA PRIVATE LIMITED company that's of these
+# Web for the company " Fictional Company " ! .
+I have build a small website for " Fictional Company ' as college project , that's of these
